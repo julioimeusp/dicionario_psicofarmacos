@@ -5,8 +5,8 @@ Em segundo plano, temos um "dicionário ortográfico" de psicofármacos, traduzi
 
 Portanto, este repositório contém:
 
-- Um dicionário em Python da classificação de psicofármacos, onde as chaves correspondem às categorias dos medicamentos e os valores os medicamentos correspondentes às categorias.
-- Um dicionário em Python da "ortografia" dos medicamentos psiquiátricos, onde as chaves são as palavras grafadas "erroneamente" e os valores a forma de grafia correta.
+- O dicionário classificacao_psicofarmacos em Python da classificação de psicofármacos, onde as chaves correspondem às categorias dos medicamentos e os valores os medicamentos correspondentes às categorias.
+- O dicionário ortografia_psicofarmacos em Python da "ortografia" dos medicamentos psiquiátricos, onde as chaves são as palavras grafadas "erroneamente" e os valores a forma de grafia correta.
 - Um programa de aplicação em Júpiter Notebook.
-- Um arquivo PDF contendo a classificação listada, com as devidas referências bibliográficas.
+- Um arquivo PDF contendo a lista da classificação dos psicofármacos, com as devidas referências bibliográficas.
 
