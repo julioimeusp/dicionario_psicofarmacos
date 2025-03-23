@@ -4,14 +4,14 @@
 # Em geral, o primeiro nome da linha é o princípio ativo do medicamento e os outros são os nomes comerciais
 
 classificacao_psicofarmacos = {
-    "Antidepressivos Tricíclicos": [
+    "Antidepressivos \n Tricíclicos": [
         "imipramina", "tofranil",
         "clomipramina", "anafranil", "clo",
         "amitriptilina", "trytanol", "amytril", "limbitrol", "protanol",
         "nortriptilina", "pamelor",
         "maprotilina", "ludiomil"
     ],
-    "Inibidores Seletivos da Recaptação de Serotonina": [
+    "Inibidores Seletivos da \n Recaptação de Serotonina": [
         "fluoxetina", "prozac", "daforin", "verotina", "fluxene", "prozen",
         "sertralina", "setralina", "zoloft", "serenata", "assert", "tolrest", "dieloft",
         "paroxetina", "aropax", "pondera", "paxil", "celebrin", "paxan", "paxtrat",  'roxetin',
@@ -19,15 +19,15 @@ classificacao_psicofarmacos = {
         "escitalopram", "lexapro", "reconter", "exodus", "espran", "esc", "sedopan", "unitram",
         "fluvoxamina", "revoc", "luvox"
     ],
-    "Inibidores Seletivos da Recaptação de Serotonina e Noradrenalina": [
+    "Inibidores Seletivos da Recaptação \n de Serotonina e Noradrenalina": [
         "venlafaxina", "efexor", "venlift", "venlaxin", "alenthus",
         "desvenlafaxina", "pristiq", "desve", "desduo", "desventag", "deller", "elifore", "aviv", "vellana", "andes", "imense",
         "duloxetina", "cymbalta", "velija", "neulox"
     ],
-    "Inibidores da Recaptação de Noradrenalina e Dopamina": [
+    "Inibidores da Recaptação \n de Noradrenalina e Dopamina": [
         "bupropiona", "welbutrin", "zyban", "bup", "zetron", "noradop", 'bupium'
     ],
-    "Inibidores Seletivos da Recaptação de Noradrenalina": [
+    "Inibidores Seletivos da \n Recaptação de Noradrenalina": [
         "reboxetina", "prolift",
         'atomoxetina', 'atentah'
     ],
@@ -35,7 +35,7 @@ classificacao_psicofarmacos = {
         "tranilcipromina", "parnate",
         "moclobemida", "aurorix"
     ],
-    "Outros Antidepressivos": [
+    "Antidepressivos atípicos": [
         "trazodona", "donaren", "sonic",
         "mirtazapina", "remeron", "menelat", "razapina",
         "agomelatina", "valdoxan",
@@ -43,14 +43,17 @@ classificacao_psicofarmacos = {
         'vilazodona',
         'esketamina', 'escetamina'
     ],
-    "Antipsicóticos": [
+    
+    "Antipsicóticos típicos": [
         "clorpromazina", "amplictil", "longactil",
         "levomepromazina", "neozine", "levozine", "meprozin",
         "flufenazina", "anatensoll", "flufenan",
         "haloperidol", "haldol",
         "tioridazina", "melleril", "unitidazin",
         "pimozida", "orap",
-        "risperidona", "risperdal", "riss", "rispidon", "zargus", "risperidon",
+        'periciazina', 'neuleptil'],
+
+    "Antipsicóticos atípicos": ["risperidona", "risperdal", "riss", "rispidon", "zargus", "risperidon",
         "olanzapina", "zyprexa", "axonium", "neupine", "zap", "zopix",
         "quetiapina", "seroquel", "neutiapim", "quetiapin", "quetros", "queropax",
         "ziprasidona", "geodon",
@@ -59,15 +62,13 @@ classificacao_psicofarmacos = {
         "amisulprida", "socian",
         "asenapina", "saphris",
         "clozapina", "leponex", "pinazan",
-        "latuda",
-        'rexulti',
-        'neuleptil',
-        'periciazina'
+        'lurasidona', "latuda",
+        'brexpiprazol', 'rexulti'
     ],
 
     "Estabilizadores de Humor": [
         "litio", "carbolitium", 'literata',
-        "vapoico", "valproico", "valproato", "torval", "depakene", "depakine", "depakote",
+        "vapoico", "valproico", 'divalproato', 'divalcon', "valpi", "valproato", "torval", "depakene", "depakine", "depakote",
         "carbamazepina", "tegretol",
         "oxcarbazepina", "trileptal", "oxcarb", "oleptal",
         "lamotrigina", "lamictal", "lamitor",
@@ -85,37 +86,33 @@ classificacao_psicofarmacos = {
         "flunitrazepam", "rohypnol", "rohydorm",
         "flurazepam", "dalmadorm",
         "midazolam", "dormonid", "dormire", "dormium", "hipnazolam",
-        "clordiazepoxido", "psicosedin", 'Lorazepam'],
-
+        "clordiazepoxido", "psicosedin"],
+    
     'Antagonistas opioides': [
-	'naloxona',
+        'naloxona',
         'naltrexona', 'uninaltrex'],
 
     "Psicoestimulantes": [
-	'metilfenidato', "ritalina", "medato",  "concerta", "ragione", "foq",
-        'lisdexanfetamina', "venvanse", 'juneve'],
-
-    "Eugeroicos": [
-	'modafinila', "stavigile",
-        'modafinil'],
-
+        'metilfenidato', "ritalina", "medato",  "concerta", "ragione", "foq",
+        'lisdexanfetamina', "venvanse", 'juneve',
+        'modafinila', 'modafinil', "stavigile"],
+    
     'Anticonvulsivantes': [
-	'pregabalina', 'lyrica', 'dorene', 'konduz',
-        'divalproato', 'divalcon', "valpi",
+        'pregabalina', 'lyrica', 'dorene', 'konduz',
         'lacosamida',
         'gabapentina',
         'levetiracetam'],
-
+    
     'Azapironas': [
-	'ansitec',
-        'buspirona'],
-
-    'Hipnóticos': [
-	'zolpidem', 'prysma', 'stilnox',
+        'buspirona', 'ansitec'],
+    
+    'Hipnóticos \n Não Benzodiazepínicos': [
+        'zolpidem', 'prysma', 'stilnox',
         'eszopiclona',
         'ramelteona', 'rozerem'],
-
+    
     'Outras Medicações': []
     # Esta categoria é opcional, e pode abranger medicamentos fitoterapicos, antroposóficos e outros que não se encaixam nas categorias acima.
     # No projeto que deu fruto a esse dicionário, colocou-se também termos genéricos de medicamentos como "calmantes", "ansiolíticos" ou "antidepressivos".
 }
+    
