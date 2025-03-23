@@ -1,3 +1,8 @@
+# A chave do dicionário representa a categoria medicamentosa criada
+# O valor da chave é a lista dos medicamentos que correspondem à categoria
+# Cada linha das listas representa uma única medicação com seus diferentes nomes (não necessariamente todos existentes)
+# Em geral, o primeiro nome da linha é o princípio ativo do medicamento e os outros são os nomes comerciais
+
 classificacao_psicofarmacos = {
     "Antidepressivos Tricíclicos": [
         "imipramina", "tofranil",
