@@ -10,3 +10,4 @@ Portanto, este repositório contém:
 - Um programa de aplicação em Júpiter Notebook.
 - Um arquivo PDF contendo a lista da classificação dos psicofármacos, com as devidas referências bibliográficas.
 
+Agradecemos o Psiquiatra Danilo Silveira Seabra, que revisou e colaborou neste trabalho.
